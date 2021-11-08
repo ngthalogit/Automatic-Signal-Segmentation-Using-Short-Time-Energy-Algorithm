@@ -1,0 +1,15 @@
+[y, Fs] = audioread('lab_male.wav');
+duration = linspace(0, length(y)/Fs, length(y));
+plot(duration,y);
+line([0.934 0.934], ylim, 'Linestyle', '--', 'color', 'red');
+line([2.35 2.35], ylim, 'Linestyle', '--', 'color', 'red');
+line([4.1 4.1], ylim, 'Linestyle', '--', 'color', 'red');
+line([6.7 6.7], ylim, 'Linestyle', '--', 'color', 'red');
+line([8.13 8.13], ylim, 'Linestyle', '--', 'color', 'red');
+line([9.55 9.55], ylim, 'Linestyle', '--', 'color', 'red');
+line([1.32 1.32], ylim, 'Linestyle', '--', 'color', 'red');
+line([2.69 2.69], ylim, 'Linestyle', '--', 'color', 'red');
+line([4.4 4.4], ylim, 'Linestyle', '--', 'color', 'red');
+line([7.027 7.027], ylim, 'Linestyle', '--', 'color', 'red');
+line([8.38 8.38], ylim, 'Linestyle', '--', 'color', 'red');
+line([9.953 9.953], ylim, 'Linestyle', '--', 'color', 'red');
