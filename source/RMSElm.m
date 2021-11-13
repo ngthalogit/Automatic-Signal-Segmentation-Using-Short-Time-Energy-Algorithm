@@ -1,5 +1,5 @@
 function [ error ] = RMSElm( point )
-%RMSElm: RMSE cho fiel lab_male.wav
+%RMSElm: RMSE cho file lab_male.wav
 %point: mang chua toa do phan doan
 %fn: ten file
 x = point;
